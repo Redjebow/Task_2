@@ -57,6 +57,13 @@ public class Tetragon {
         this.sideC = 4;
         this.sideD = 5;
     }
+    public Tetragon(double sideA, double sideB) {
+        this.sideA = sideA;
+        this.sideB = sideB;
+    }
+    public Tetragon(double sideA) {
+        this.sideA = sideA;
+    }
     public void calculatePerimeter(){
         System.out.println("The perimeter in tetragon is "+(getSideA()+getSideB()+getSideC()+getSideD()));
     }
